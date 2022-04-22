@@ -1,8 +1,47 @@
 html {
-    box-sizing: border-box;
-  }
-  
-  *,
-  *:before,
-  *:after {
-    box-sizing: inherit;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background: #2c2141;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card {
+  width: 624px;
+  height: fit-content;
+  background-color: #f8f8f8;
+  border-radius: 16px;
+  padding: 32px;
+  margin: 16px;
+  display: flex;
+}
+
+.resume__face {
+  width: 148px;
+  height: 148px;
+  border-radius: 50%;
+}
+
+.resume__title--name {
+  margin: 0;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.resume__title--job {
+  margin: 0;
+  font-size: 18px;
+  font-style: italic;
+  color: #545454;
+}
