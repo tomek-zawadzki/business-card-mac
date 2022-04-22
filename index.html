@@ -5,16 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Wizytówka</title>
+    <link href="normalize.css" rel="stylesheet" type="text/css" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <main>
-      <article>
-        <img src="joker1.jpeg" alt="twarz pana Jokera" />
-        <header>
-          <h1>Pan Joker</h1>
-          <p>czarny bohater</p>
+    <main class="card">
+      <article class="resume">
+        <img class="resume__face" src="joker1.jpeg" alt="twarz pana Jokera" />
+        <header class="resume__title">
+          <h1 class="resume__title--name">Pan Joker</h1>
+          <p class="resume__title--job">czarny bohater</p>
         </header>
-        <p>
+        <p class="resume__description">
           Joker jest czołowym antagonistą Batmana oraz jego sojuszników.
           Przypominający klauna, bądź komika, Joker jest psychopatycznym
           seryjnym mordercą, o sadystycznym poczuciu humoru, aczkolwiek w
@@ -23,7 +25,7 @@
           robienia złośliwych żartów, aniżeli do popełniania brutalnych
           przestępstw[
         </p>
-        <p>W sieci:</p>
+        <p class="resume__contact">W sieci:</p>
       </article>
     </main>
   </body>
