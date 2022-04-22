@@ -27,10 +27,15 @@ body {
   display: flex;
 }
 
+.resume {
+  display: flex;
+}
+
 .resume__face {
   width: 148px;
   height: 148px;
   border-radius: 50%;
+  margin-right: 32px;
 }
 
 .resume__title--name {
@@ -47,18 +52,21 @@ body {
 }
 
 .resume__description {
-    line-height: 22px;
-    font-size: 16px;
-    margin: 0px;
-    padding-top: 24px;
+  line-height: 22px;
+  font-size: 16px;
+  margin: 0px;
+  padding-top: 24px;
 }
 
 .resume__contact {
-    font-size: 16px;
-    margin: 0%;
-    padding-top: 22px;
+  font-size: 32px;
+  margin: 0%;
+  padding-top: 22px;
+  display: flex;
+  justify-content: space-around;
+  width: 300px;
 }
 
 .special {
-    color: #ED6D05;
+  color: #ed6d05;
 }
