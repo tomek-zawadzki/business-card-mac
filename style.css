@@ -45,3 +45,20 @@ body {
   font-style: italic;
   color: #545454;
 }
+
+.resume__description {
+    line-height: 22px;
+    font-size: 16px;
+    margin: 0px;
+    padding-top: 24px;
+}
+
+.resume__contact {
+    font-size: 16px;
+    margin: 0%;
+    padding-top: 22px;
+}
+
+.special {
+    color: #ED6D05;
+}
